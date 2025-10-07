@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>principal</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+</head>
+<body>
+      <nav class="navbar navbar-expand-lg bg-body-tertiar" style="background-color: #7799cc;">
+      <nav class="navbar">
+        <div class="container">
+          <a class="navbar-brand" href="#">
+            <img src="./img/logo_postres.png" class="logo" alt="Bootstrap" width="90" height="90">
+          </a>
+        </div>
+      </nav>
+      <div class="container-fluid">
+        <a class="navbar-brand">Postres Amaneceres</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+        <li class="nav-item">
+          <a class="nav-link active" aria-current="page" href="inicio.html">Inicio</a>
+        </li>
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+            Postres
+          </a>
+          <ul class="dropdown-menu">
+            <li><a class="dropdown-item" href="postres_Salados.html">Salados</a></li>
+            <li><a class="dropdown-item" href="postres_Dulces.html">Dulce</a></li>
+          </ul>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="comentarios.html">Comentario</a>
+        </li>
+      </div>
+    </nav>
+<!--CArrusel-->
+<div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
+  <div class="carousel-inner">
+    <div class="carousel-item active">
+      <img src="./img/preparacion.jpg" class="d-block w-100" alt="..." width="500" height="400">
+    </div>
+    <div class="carousel-item">
+      <img src="./img/Crepas.jpg" class="d-block w-100" alt="..." width="500" height="400">
+    </div>
+    <div class="carousel-item">
+      <img src="./img/salado3.webp" class="d-block w-100" alt="..." width="500" height="400">
+    </div>
+  </div>
+  <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
+    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Previous</span>
+  </button>
+  <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next">
+    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Next</span>
+  </button>
+</div><br>
+<!---->
+<div>
+  <center><h2>Descripcion</h2></center>
+  <center><p>Brindamos recetas de postres fáciles, accesibles y deliciosos para que cualquier persona que sin importar su experiencia en la cocina pueda disfrutar del placer de crear y compartir dulces momentos.</p></center>  
+</div><br>
+<div>
+  <center><h2>vision</h2></center>
+  <center><p> Nuestra vision es ser una página de referencia para aquellos amantes de los postres caseros, fomentando una comunidad creativa y apasionada que disfrute del prceso de elaboracion con ingredientes simples y rapido.</p></center>
+</div><br>
+
+<!--inicio de columnas-->
+<div class="container text-center">
+  <div class="row">
+    <center><h1>Tipos de Postres</h1></center>
+    <div class="col">
+      <div class="card mb-3">
+        <img src="./img/helado de platano.jpg" class="card-img-top" alt="..." width="100" height="400">
+        <div class="card-body">
+          <h5 class="card-title">Postres Dulces</h5>
+          <p class="card-text">Si te encanta lo dulce y delicioso aqui los encontraras.</p>
+          <a href="postres_Dulces.html" class="btn btn-outline-primary">Mostrar</a>
+        </div>
+      </div>
+    </div>
+    <div class="col">
+      <div class="card mb-3">
+        <img src="./img/salado1.webp" class="card-img-top" alt="..." width="100" height="400">
+        <div class="card-body">
+          <h5 class="card-title">Postres Salados</h5>
+          <p class="card-text">crujientes y sabrosos que te llenan de sabor aqui lo encontraras.</p>
+          <a href="postres_Salados.html" class="btn btn-outline-primary">Mostrar</a>
+        </div>
+      </div>
+    </div>
+  </div>
+<nav aria-label="Page navigation example">
+  <ul class="pagination justify-content-center">
+    <li class="page-item"><a class="page-link" href="inicio.html">1</a></li>
+    <li class="page-item"><a class="page-link" href="postres_Salados.html">2</a></li>
+    <li class="page-item"><a class="page-link" href="postres_Dulces.html">3</a></li>
+    <li class="page-item"><a class="page-link" href="comentarios.html">4</a></li>
+  </ul>
+</nav>
+</body>
+<body>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js" integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js" integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI" crossorigin="anonymous"></script>
+</body>
+</html>
